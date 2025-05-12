@@ -1,0 +1,44 @@
+
+        body {
+            background-color: #3795de;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        
+
+
+        }
+        header {
+            text-align: center;
+            color: #fff;
+        }
+        section {
+            padding: 15px ;
+            background-color: #fff;
+            border-radius: 12px;
+            width: 500px;
+            margin: auto;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+            justify-content: center;
+            
+            
+           
+
+
+        }
+        div {
+            text-align: center;
+            padding: 8px;
+            
+        }
+            
+         
+        footer {
+            text-align: center;
+            color: #fff;
+            font-style:italic;
+            margin-top: 15px;
+
+        }
+        
