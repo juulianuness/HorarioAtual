@@ -18,7 +18,7 @@ function carregar() {
     if (hora >= 0 && hora < 12) {
         saudacao = "Bom dia ☀️"
         img.src = "manha.png"
-        document.body.style.background = "linear-gradient(135deg, #f9e3b0 , #b76136)"
+        document.body.style.background = "linear-gradient(135deg, #efbbd7, #e0d9a8)"
     } 
     else if (hora >= 12 && hora < 18) {
         saudacao = "Boa tarde 🌤️"
