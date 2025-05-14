@@ -23,11 +23,11 @@ function carregar() {
     else if (hora >= 12 && hora < 18) {
         saudacao = "Boa tarde 🌤️"
         img.src = "tarde.png"
-        document.body.style.background = "linear-gradient(135deg, #d4fc79, #96e6a1)"
+        document.body.style.background = "linear-gradient(135deg, #e0d9a8, #a8eab1)"
     } else {
         saudacao = "Boa noite 🌙"
         img.src = "noite.png"
-        document.body.style.backgroundColor = "linear-gradient(135deg, #56ccf2, #194988)"
+        document.body.style.backgroundColor = "linear-gradient(135deg, #a8eab1,#0c2c55)"
     }
 
     msg.innerHTML = `<h2>${horarioFormatado} - ${saudacao}</h2>`
