@@ -18,16 +18,16 @@ function carregar() {
     if (hora >= 0 && hora < 12) {
         saudacao = "Bom dia ☀️"
         img.src = "manha.png"
-        document.body.style.background = "#baf7ff"
+        document.body.style.background = "linear-gradient(135deg, #f9e3b0 , #b76136)"
     } 
     else if (hora >= 12 && hora < 18) {
         saudacao = "Boa tarde 🌤️"
         img.src = "tarde.png"
-        document.body.style.background = "#3795de"
+        document.body.style.background = "linear-gradient(135deg, #d4fc79, #96e6a1)"
     } else {
         saudacao = "Boa noite 🌙"
         img.src = "noite.png"
-        document.body.style.backgroundColor = "#15154a"
+        document.body.style.backgroundColor = "linear-gradient(135deg, #56ccf2, #194988)"
     }
 
     msg.innerHTML = `<h2>${horarioFormatado} - ${saudacao}</h2>`
