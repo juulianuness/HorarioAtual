@@ -27,7 +27,7 @@ function carregar() {
     } else {
         saudacao = "Boa noite 🌙"
         img.src = "noite.png"
-        document.body.style.backgroundColor = "linear-gradient(135deg, #a8eab1,#0c2c55)"
+        document.body.style.background = "linear-gradient(135deg, #a8eab1, #0c2c55)"
     }
 
     msg.innerHTML = `<h2>${horarioFormatado} - ${saudacao}</h2>`
